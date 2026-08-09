@@ -1,0 +1,4 @@
+[console_scripts]
+print_forever_node = python_package_with_a_node.print_forever_node:main
+sample_python_node = python_package_with_a_node.sample_python_node:main
+

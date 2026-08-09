@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info
+writing ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/dependency_links.txt
+writing entry points to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/entry_points.txt
+writing requirements to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/requires.txt
+writing top-level names to ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/top_level.txt
+writing manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build
+creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib
+creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+copying python_package_that_uses_the_library/node_that_uses_the_library.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+copying python_package_that_uses_the_library/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library
+running install
+running install_lib
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library
+copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library/node_that_uses_the_library.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library
+copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build/lib/python_package_that_uses_the_library/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library
+byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library/node_that_uses_the_library.py to node_that_uses_the_library.cpython-310.pyc
+byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index/packages
+copying resource/python_package_that_uses_the_library -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/ament_index/resource_index/packages
+copying package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library
+running install_egg_info
+Copying ../../build/python_package_that_uses_the_library/python_package_that_uses_the_library.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages/python_package_that_uses_the_library-0.0.0-py3.10.egg-info
+running install_scripts
+Installing node_that_uses_the_library script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python_package_that_uses_the_library
+writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log'

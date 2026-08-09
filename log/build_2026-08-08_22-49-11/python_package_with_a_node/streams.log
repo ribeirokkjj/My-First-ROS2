@@ -1,0 +1,14 @@
+[1.341s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_node': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --install-scripts $base/lib/python_package_with_a_node --single-version-externally-managed install_data
+[1.716s] running egg_info
+[1.716s] writing ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/PKG-INFO
+[1.717s] writing dependency_links to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/dependency_links.txt
+[1.719s] writing entry points to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/entry_points.txt
+[1.719s] writing requirements to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/requires.txt
+[1.719s] writing top-level names to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/top_level.txt
+[1.726s] reading manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[1.726s] writing manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+[1.726s] running build
+[1.726s] running build_py
+[1.726s] copying python_package_with_a_node/print_forever_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build/lib/python_package_with_a_node
+[1.728s] error: could not open 'python_package_with_a_node/print_forever_node.py': Permission denied
+[1.735s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_node' returned '1': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_node build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/install.log --install-scripts $base/lib/python_package_with_a_node --single-version-externally-managed install_data

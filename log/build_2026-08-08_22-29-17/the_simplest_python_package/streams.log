@@ -1,0 +1,20 @@
+[0.867s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/the_simplest_python_package': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --install-scripts $base/lib/the_simplest_python_package --single-version-externally-managed install_data
+[1.209s] running egg_info
+[1.209s] writing ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/PKG-INFO
+[1.209s] writing dependency_links to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/dependency_links.txt
+[1.210s] writing entry points to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/entry_points.txt
+[1.210s] writing requirements to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/requires.txt
+[1.210s] writing top-level names to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/top_level.txt
+[1.212s] reading manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[1.213s] writing manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'
+[1.213s] running build
+[1.213s] running build_py
+[1.213s] running install
+[1.214s] running install_lib
+[1.215s] running install_data
+[1.215s] running install_egg_info
+[1.217s] removing '/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info' (and everything under it)
+[1.219s] Copying ../../build/the_simplest_python_package/the_simplest_python_package.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info
+[1.224s] running install_scripts
+[1.243s] writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/install.log'
+[1.257s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/the_simplest_python_package' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/the_simplest_python_package build --build-base /home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/build install --record /home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/install.log --install-scripts $base/lib/the_simplest_python_package --single-version-externally-managed install_data

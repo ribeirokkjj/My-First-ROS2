@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "package_with_interfaces__rs",
+		"source" : "/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/package_with_interfaces__rs"
+	}
+}

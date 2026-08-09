@@ -1,0 +1,3 @@
+[console_scripts]
+node_that_uses_the_library = python_package_that_uses_the_library.node_that_uses_the_library:main
+

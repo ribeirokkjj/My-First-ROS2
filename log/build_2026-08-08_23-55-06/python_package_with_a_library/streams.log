@@ -1,0 +1,20 @@
+[0.985s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --install-scripts $base/lib/python_package_with_a_library --single-version-externally-managed install_data
+[1.350s] running egg_info
+[1.351s] writing ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/PKG-INFO
+[1.351s] writing dependency_links to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/dependency_links.txt
+[1.352s] writing entry points to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/entry_points.txt
+[1.353s] writing requirements to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/requires.txt
+[1.353s] writing top-level names to ../../build/python_package_with_a_library/python_package_with_a_library.egg-info/top_level.txt
+[1.355s] reading manifest file '../../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[1.356s] writing manifest file '../../build/python_package_with_a_library/python_package_with_a_library.egg-info/SOURCES.txt'
+[1.356s] running build
+[1.356s] running build_py
+[1.357s] running install
+[1.357s] running install_lib
+[1.359s] running install_data
+[1.360s] running install_egg_info
+[1.361s] removing '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library-0.0.0-py3.10.egg-info' (and everything under it)
+[1.363s] Copying ../../build/python_package_with_a_library/python_package_with_a_library.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages/python_package_with_a_library-0.0.0-py3.10.egg-info
+[1.369s] running install_scripts
+[1.390s] writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/install.log'
+[1.403s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --install-scripts $base/lib/python_package_with_a_library --single-version-externally-managed install_data

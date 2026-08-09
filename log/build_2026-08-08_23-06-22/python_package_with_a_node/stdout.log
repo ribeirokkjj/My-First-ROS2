@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/dependency_links.txt
+writing entry points to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/entry_points.txt
+writing requirements to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/requires.txt
+writing top-level names to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/top_level.txt
+reading manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying python_package_with_a_node/print_forever_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build/lib/python_package_with_a_node
+running install
+running install_lib
+copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build/lib/python_package_with_a_node/print_forever_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node
+byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node/print_forever_node.py to print_forever_node.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/python_package_with_a_node/python_package_with_a_node.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing print_forever_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python_package_with_a_node
+Installing sample_python_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python_package_with_a_node
+writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/install.log'

@@ -1,0 +1,255 @@
+[0.170s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.170s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fa1569e21d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fa156b7b400>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fa156b7b400>>, mixin_verb=('build',))
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.454s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ribeiro/ros2_tutorial_workspace'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.454s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.464s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.465s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extension 'ignore'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extension 'ignore_ament_install'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extensions ['colcon_pkg']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extension 'colcon_pkg'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extensions ['colcon_meta']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extension 'colcon_meta'
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extensions ['ros']
+[0.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_with_interfaces) by extension 'ros'
+[0.469s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package_with_interfaces' with type 'ros.ament_cmake' and name 'package_with_interfaces'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_that_uses_the_library) by extension 'ros'
+[0.471s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_that_uses_the_library' with type 'ros.ament_python' and name 'python_package_that_uses_the_library'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['ignore', 'ignore_ament_install']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ignore'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ignore_ament_install'
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['colcon_pkg']
+[0.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'colcon_pkg'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['colcon_meta']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'colcon_meta'
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extensions ['ros']
+[0.472s] Level 1:colcon.colcon_core.package_identification:_identify(src/python_package_with_a_library) by extension 'ros'
+[0.472s] DEBUG:colcon.colcon_core.package_identification:Package 'src/python_package_with_a_library' with type 'ros.ament_python' and name 'python_package_with_a_library'
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.472s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.499s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.502s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ribeiro/ros2_tutorial_workspace/install
+[0.504s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'package_with_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.558s] DEBUG:colcon.colcon_core.verb:Building package 'package_with_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces', 'merge_install': False, 'path': '/home/ribeiro/ros2_tutorial_workspace/src/package_with_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_args' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_target' from command line to 'None'
+[0.558s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_with_a_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_with_a_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library', 'merge_install': False, 'path': '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library', 'symlink_install': False, 'test_result_base': None}
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.559s] Level 5:colcon.colcon_core.verb:set package 'python_package_that_uses_the_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.559s] DEBUG:colcon.colcon_core.verb:Building package 'python_package_that_uses_the_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library', 'merge_install': False, 'path': '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_library', 'symlink_install': False, 'test_result_base': None}
+[0.559s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.560s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.560s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library' with build type 'ament_python'
+[0.560s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_library', 'ament_prefix_path')
+[0.564s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.564s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/ament_prefix_path.sh'
+[0.566s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.566s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.573s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ribeiro/ros2_tutorial_workspace/src/package_with_interfaces' with build type 'ament_cmake'
+[0.573s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ribeiro/ros2_tutorial_workspace/src/package_with_interfaces'
+[0.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.956s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library'
+[0.956s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake /home/ribeiro/ros2_tutorial_workspace/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces
+[1.541s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, bdist_dumb, build, dist_info, easy_install, test, alias, install_data, saveopts, build_py, develop, register, upload_docs, install, rotate, upload, build_ext, bdist_egg, init_catalog, sdist, update_catalog, symlink_data, build_clib, install_scripts, bdist, extract_messages, egg_info, install_headers, bdist_rpm, compile_catalog, check, clean, build_scripts, install_egg_info, install_lib
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --install-scripts $base/lib/python_package_with_a_library --single-version-externally-managed install_data
+[1.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_library' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_with_a_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/install.log --install-scripts $base/lib/python_package_with_a_library --single-version-externally-managed install_data
+[1.969s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library' for CMake module files
+[1.970s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library' for CMake config files
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/bin'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/pkgconfig/python_package_with_a_library.pc'
+[1.972s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages'
+[1.972s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_with_a_library', 'pythonpath')
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.ps1'
+[1.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.dsv'
+[1.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/hook/pythonpath.sh'
+[1.975s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/bin'
+[1.975s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_with_a_library)
+[1.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.ps1'
+[1.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.dsv'
+[1.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.sh'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.bash'
+[1.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library/package.zsh'
+[1.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/colcon-core/packages/python_package_with_a_library)
+[1.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_library' with build type 'ament_python'
+[1.980s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'ament_prefix_path')
+[1.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.ps1'
+[1.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.dsv'
+[1.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/ament_prefix_path.sh'
+[1.982s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.982s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.395s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_library'
+[2.396s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.396s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.930s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: setopt, bdist_dumb, build, dist_info, easy_install, test, alias, install_data, saveopts, build_py, develop, register, upload_docs, install, rotate, upload, build_ext, bdist_egg, init_catalog, sdist, update_catalog, symlink_data, build_clib, install_scripts, bdist, extract_messages, egg_info, install_headers, bdist_rpm, compile_catalog, check, clean, build_scripts, install_egg_info, install_lib
+[2.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_library': AMENT_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/opt/ros/humble PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --install-scripts $base/lib/python_package_that_uses_the_library --single-version-externally-managed install_data
+[3.374s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library' for CMake module files
+[3.374s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_library' returned '0': AMENT_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/opt/ros/humble PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_library build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_library/install.log --install-scripts $base/lib/python_package_that_uses_the_library --single-version-externally-managed install_data
+[3.375s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library' for CMake config files
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib'
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/bin'
+[3.377s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/pkgconfig/python_package_that_uses_the_library.pc'
+[3.378s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/lib/python3.10/site-packages'
+[3.378s] Level 1:colcon.colcon_core.shell:create_environment_hook('python_package_that_uses_the_library', 'pythonpath')
+[3.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.ps1'
+[3.379s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.dsv'
+[3.379s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/hook/pythonpath.sh'
+[3.380s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/bin'
+[3.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(python_package_that_uses_the_library)
+[3.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.ps1'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.dsv'
+[3.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.sh'
+[3.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.bash'
+[3.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/python_package_that_uses_the_library/package.zsh'
+[3.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library/share/colcon-core/packages/python_package_that_uses_the_library)
+[9.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake /home/ribeiro/ros2_tutorial_workspace/src/package_with_interfaces -DCMAKE_INSTALL_PREFIX=/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces
+[9.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces -- -j6 -l6
+[14.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces -- -j6 -l6
+[14.884s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces
+[15.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_with_interfaces)
+[15.208s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces' for CMake module files
+[15.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces
+[15.209s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces' for CMake config files
+[15.212s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_with_interfaces', 'cmake_prefix_path')
+[15.212s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.ps1'
+[15.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.dsv'
+[15.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.sh'
+[15.215s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib'
+[15.215s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_with_interfaces', 'ld_library_path_lib')
+[15.215s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.ps1'
+[15.216s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.dsv'
+[15.216s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.sh'
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/bin'
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/pkgconfig/package_with_interfaces.pc'
+[15.217s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/python3.10/site-packages'
+[15.218s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/bin'
+[15.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.ps1'
+[15.219s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.dsv'
+[15.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.sh'
+[15.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.bash'
+[15.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.zsh'
+[15.222s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/colcon-core/packages/package_with_interfaces)
+[15.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_with_interfaces)
+[15.224s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces' for CMake module files
+[15.225s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces' for CMake config files
+[15.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_with_interfaces', 'cmake_prefix_path')
+[15.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.ps1'
+[15.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.dsv'
+[15.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/cmake_prefix_path.sh'
+[15.230s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib'
+[15.230s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_with_interfaces', 'ld_library_path_lib')
+[15.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.ps1'
+[15.231s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.dsv'
+[15.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/hook/ld_library_path_lib.sh'
+[15.232s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/bin'
+[15.232s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/pkgconfig/package_with_interfaces.pc'
+[15.232s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/python3.10/site-packages'
+[15.233s] Level 1:colcon.colcon_core.environment:checking '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/bin'
+[15.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.ps1'
+[15.238s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.dsv'
+[15.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.sh'
+[15.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.bash'
+[15.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.zsh'
+[15.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/colcon-core/packages/package_with_interfaces)
+[15.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.241s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[15.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.260s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.260s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.261s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[15.261s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.261s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ribeiro/ros2_tutorial_workspace/install/local_setup.ps1'
+[15.262s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ribeiro/ros2_tutorial_workspace/install/_local_setup_util_ps1.py'
+[15.263s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ribeiro/ros2_tutorial_workspace/install/setup.ps1'
+[15.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ribeiro/ros2_tutorial_workspace/install/local_setup.sh'
+[15.266s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ribeiro/ros2_tutorial_workspace/install/_local_setup_util_sh.py'
+[15.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ribeiro/ros2_tutorial_workspace/install/setup.sh'
+[15.269s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ribeiro/ros2_tutorial_workspace/install/local_setup.bash'
+[15.270s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ribeiro/ros2_tutorial_workspace/install/setup.bash'
+[15.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ribeiro/ros2_tutorial_workspace/install/local_setup.zsh'
+[15.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ribeiro/ros2_tutorial_workspace/install/setup.zsh'

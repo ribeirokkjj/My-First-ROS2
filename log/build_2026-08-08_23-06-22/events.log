@@ -1,0 +1,98 @@
+[0.000000] (-) TimerEvent: {}
+[0.000358] (python_package_with_a_node) JobQueued: {'identifier': 'python_package_with_a_node', 'dependencies': OrderedDict()}
+[0.000463] (the_simplest_python_package) JobQueued: {'identifier': 'the_simplest_python_package', 'dependencies': OrderedDict()}
+[0.000505] (python_package_with_a_node) JobStarted: {'identifier': 'python_package_with_a_node'}
+[0.088588] (the_simplest_python_package) JobStarted: {'identifier': 'the_simplest_python_package'}
+[0.103289] (-) TimerEvent: {}
+[0.211805] (-) TimerEvent: {}
+[0.321346] (-) TimerEvent: {}
+[0.431144] (-) TimerEvent: {}
+[0.538839] (-) TimerEvent: {}
+[0.649386] (-) TimerEvent: {}
+[0.758870] (-) TimerEvent: {}
+[0.868418] (-) TimerEvent: {}
+[0.978906] (-) TimerEvent: {}
+[1.088453] (-) TimerEvent: {}
+[1.197952] (-) TimerEvent: {}
+[1.306502] (-) TimerEvent: {}
+[1.416990] (-) TimerEvent: {}
+[1.527514] (-) TimerEvent: {}
+[1.636562] (-) TimerEvent: {}
+[1.747084] (-) TimerEvent: {}
+[1.856585] (-) TimerEvent: {}
+[1.967645] (-) TimerEvent: {}
+[2.079141] (-) TimerEvent: {}
+[2.190183] (-) TimerEvent: {}
+[2.298752] (-) TimerEvent: {}
+[2.409251] (-) TimerEvent: {}
+[2.518727] (-) TimerEvent: {}
+[2.628253] (-) TimerEvent: {}
+[2.736793] (-) TimerEvent: {}
+[2.848293] (-) TimerEvent: {}
+[2.957825] (-) TimerEvent: {}
+[3.065330] (-) TimerEvent: {}
+[3.175866] (-) TimerEvent: {}
+[3.286374] (-) TimerEvent: {}
+[3.395398] (-) TimerEvent: {}
+[3.505926] (-) TimerEvent: {}
+[3.616445] (-) TimerEvent: {}
+[3.726965] (-) TimerEvent: {}
+[3.836508] (-) TimerEvent: {}
+[3.944008] (-) TimerEvent: {}
+[4.054516] (-) TimerEvent: {}
+[4.164077] (-) TimerEvent: {}
+[4.273575] (-) TimerEvent: {}
+[4.356823] (the_simplest_python_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/the_simplest_python_package', 'build', '--build-base', '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/build', 'install', '--record', '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/install.log', '--install-scripts', '$base/lib/the_simplest_python_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ribeiro/ros2_tutorial_workspace/src/the_simplest_python_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ribeiro', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ribeiro', 'OLDPWD': '/home/ribeiro/ros2_tutorial_workspace', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/home/ribeiro/ros2_tutorial_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ribeiro', 'NAME': 'DESKTOP-8COHQ5A', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_302/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Pichau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Pichau/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[4.361849] (python_package_with_a_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/python_package_with_a_node', 'build', '--build-base', '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build', 'install', '--record', '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/install.log', '--install-scripts', '$base/lib/python_package_with_a_node', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/ribeiro/ros2_tutorial_workspace/src/python_package_with_a_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ribeiro', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/ribeiro', 'OLDPWD': '/home/ribeiro/ros2_tutorial_workspace', 'ROS_PYTHON_VERSION': '3', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'COLCON_PREFIX_PATH': '/home/ribeiro/ros2_tutorial_workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ribeiro', 'NAME': 'DESKTOP-8COHQ5A', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Program Files/Amazon Corretto/jdk1.8.0_302/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Python314/Scripts/:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Python314/:/mnt/c/Users/Pichau/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/Pichau/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Pichau/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[4.384054] (-) TimerEvent: {}
+[4.495592] (-) TimerEvent: {}
+[4.604591] (-) TimerEvent: {}
+[4.715121] (-) TimerEvent: {}
+[4.738104] (python_package_with_a_node) StdoutLine: {'line': b'running egg_info\n'}
+[4.738388] (the_simplest_python_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.738714] (python_package_with_a_node) StdoutLine: {'line': b'writing ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/PKG-INFO\n'}
+[4.738841] (the_simplest_python_package) StdoutLine: {'line': b'writing ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/PKG-INFO\n'}
+[4.739045] (python_package_with_a_node) StdoutLine: {'line': b'writing dependency_links to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/dependency_links.txt\n'}
+[4.739226] (the_simplest_python_package) StdoutLine: {'line': b'writing dependency_links to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/dependency_links.txt\n'}
+[4.739614] (python_package_with_a_node) StdoutLine: {'line': b'writing entry points to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/entry_points.txt\n'}
+[4.739727] (the_simplest_python_package) StdoutLine: {'line': b'writing entry points to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/entry_points.txt\n'}
+[4.742490] (python_package_with_a_node) StdoutLine: {'line': b'writing requirements to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/requires.txt\n'}
+[4.742605] (python_package_with_a_node) StdoutLine: {'line': b'writing top-level names to ../../build/python_package_with_a_node/python_package_with_a_node.egg-info/top_level.txt\n'}
+[4.747449] (python_package_with_a_node) StdoutLine: {'line': b"reading manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'\n"}
+[4.749278] (the_simplest_python_package) StdoutLine: {'line': b'writing requirements to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/requires.txt\n'}
+[4.749383] (the_simplest_python_package) StdoutLine: {'line': b'writing top-level names to ../../build/the_simplest_python_package/the_simplest_python_package.egg-info/top_level.txt\n'}
+[4.749776] (the_simplest_python_package) StdoutLine: {'line': b"reading manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'\n"}
+[4.750706] (the_simplest_python_package) StdoutLine: {'line': b"writing manifest file '../../build/the_simplest_python_package/the_simplest_python_package.egg-info/SOURCES.txt'\n"}
+[4.751486] (python_package_with_a_node) StdoutLine: {'line': b"writing manifest file '../../build/python_package_with_a_node/python_package_with_a_node.egg-info/SOURCES.txt'\n"}
+[4.751585] (python_package_with_a_node) StdoutLine: {'line': b'running build\n'}
+[4.751655] (python_package_with_a_node) StdoutLine: {'line': b'running build_py\n'}
+[4.751731] (the_simplest_python_package) StdoutLine: {'line': b'running build\n'}
+[4.751791] (the_simplest_python_package) StdoutLine: {'line': b'running build_py\n'}
+[4.751847] (the_simplest_python_package) StdoutLine: {'line': b'running install\n'}
+[4.753391] (the_simplest_python_package) StdoutLine: {'line': b'running install_lib\n'}
+[4.753481] (python_package_with_a_node) StdoutLine: {'line': b'copying python_package_with_a_node/print_forever_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build/lib/python_package_with_a_node\n'}
+[4.753550] (the_simplest_python_package) StdoutLine: {'line': b'running install_data\n'}
+[4.753730] (the_simplest_python_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.757561] (the_simplest_python_package) StdoutLine: {'line': b"removing '/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.757789] (python_package_with_a_node) StdoutLine: {'line': b'running install\n'}
+[4.758014] (python_package_with_a_node) StdoutLine: {'line': b'running install_lib\n'}
+[4.758093] (python_package_with_a_node) StdoutLine: {'line': b'copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/build/lib/python_package_with_a_node/print_forever_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node\n'}
+[4.758157] (the_simplest_python_package) StdoutLine: {'line': b'Copying ../../build/the_simplest_python_package/the_simplest_python_package.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package/lib/python3.10/site-packages/the_simplest_python_package-0.0.0-py3.10.egg-info\n'}
+[4.761452] (python_package_with_a_node) StdoutLine: {'line': b'byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node/print_forever_node.py to print_forever_node.cpython-310.pyc\n'}
+[4.763216] (python_package_with_a_node) StdoutLine: {'line': b'running install_data\n'}
+[4.763381] (python_package_with_a_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.763573] (the_simplest_python_package) StdoutLine: {'line': b'running install_scripts\n'}
+[4.765355] (python_package_with_a_node) StdoutLine: {'line': b"removing '/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.767110] (python_package_with_a_node) StdoutLine: {'line': b'Copying ../../build/python_package_with_a_node/python_package_with_a_node.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python3.10/site-packages/python_package_with_a_node-0.0.0-py3.10.egg-info\n'}
+[4.772836] (python_package_with_a_node) StdoutLine: {'line': b'running install_scripts\n'}
+[4.784462] (the_simplest_python_package) StdoutLine: {'line': b"writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/the_simplest_python_package/install.log'\n"}
+[4.792967] (python_package_with_a_node) StdoutLine: {'line': b'Installing print_forever_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python_package_with_a_node\n'}
+[4.793646] (python_package_with_a_node) StdoutLine: {'line': b'Installing sample_python_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node/lib/python_package_with_a_node\n'}
+[4.794232] (python_package_with_a_node) StdoutLine: {'line': b"writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_node/install.log'\n"}
+[4.799547] (the_simplest_python_package) CommandEnded: {'returncode': 0}
+[4.825107] (-) TimerEvent: {}
+[4.918632] (the_simplest_python_package) JobEnded: {'identifier': 'the_simplest_python_package', 'rc': 0}
+[4.920323] (python_package_with_a_node) CommandEnded: {'returncode': 0}
+[4.932944] (python_package_with_a_node) JobEnded: {'identifier': 'python_package_with_a_node', 'rc': 0}
+[4.935861] (-) TimerEvent: {}
+[4.935995] (-) EventReactorShutdown: {}
