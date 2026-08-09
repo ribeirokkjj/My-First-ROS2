@@ -1,0 +1,41 @@
+[2.493s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_messages': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_messages build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/install.log --install-scripts $base/lib/python_package_that_uses_the_messages --single-version-externally-managed install_data
+[2.891s] running egg_info
+[2.892s] creating ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info
+[2.892s] writing ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/PKG-INFO
+[2.895s] writing dependency_links to ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/dependency_links.txt
+[2.897s] writing entry points to ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/entry_points.txt
+[2.898s] writing requirements to ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/requires.txt
+[2.898s] writing top-level names to ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/top_level.txt
+[2.898s] writing manifest file '../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.901s] reading manifest file '../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.913s] writing manifest file '../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[2.913s] running build
+[2.913s] running build_py
+[2.913s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build
+[2.913s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib
+[2.914s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.914s] copying python_package_that_uses_the_messages/amazing_quote_publisher_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.914s] copying python_package_that_uses_the_messages/amazing_quote_subscriber_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.914s] copying python_package_that_uses_the_messages/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages
+[2.914s] running install
+[2.914s] running install_lib
+[2.914s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.914s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/amazing_quote_publisher_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.918s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/amazing_quote_subscriber_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.918s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build/lib/python_package_that_uses_the_messages/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages
+[2.920s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/amazing_quote_publisher_node.py to amazing_quote_publisher_node.cpython-310.pyc
+[2.921s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/amazing_quote_subscriber_node.py to amazing_quote_subscriber_node.cpython-310.pyc
+[2.922s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages/__init__.py to __init__.cpython-310.pyc
+[2.925s] running install_data
+[2.925s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index
+[2.925s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index
+[2.925s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+[2.925s] copying resource/python_package_that_uses_the_messages -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+[2.926s] copying package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/python_package_that_uses_the_messages
+[2.927s] running install_egg_info
+[2.929s] Copying ../../build/python_package_that_uses_the_messages/python_package_that_uses_the_messages.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python_package_that_uses_the_messages-0.0.0-py3.10.egg-info
+[2.936s] running install_scripts
+[2.957s] Installing amazing_quote_publisher_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[2.957s] Installing amazing_quote_subscriber_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[2.958s] writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/install.log'
+[2.985s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_messages' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_messages build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/install.log --install-scripts $base/lib/python_package_that_uses_the_messages --single-version-externally-managed install_data
