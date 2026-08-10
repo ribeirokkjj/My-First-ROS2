@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-2185b16f6f8708aeb170.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_package_with_a_library",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package_with_a_library::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package_with_a_library-35337fec6eed206e2f7f.json",
+					"name" : "cpp_package_with_a_library",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package_with_a_library_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package_with_a_library_uninstall-5495ea55a5f685baa0fc.json",
+					"name" : "cpp_package_with_a_library_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sample_class_local_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sample_class_local_node-55341a7df09d814ac5dd.json",
+					"name" : "sample_class_local_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2352a2c4c53a1ce9b785.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_library",
+		"source" : "/home/ribeiro/ros2_tutorial_workspace/src/cpp_package_with_a_library"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

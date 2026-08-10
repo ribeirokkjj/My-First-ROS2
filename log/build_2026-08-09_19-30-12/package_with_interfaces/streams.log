@@ -1,0 +1,196 @@
+[0.042s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces -- -j6 -l6
+[0.364s] [  2%] Built target package_with_interfaces__rs
+[0.368s] [  5%] Built target package_with_interfaces__cpp
+[0.405s] [ 15%] Built target package_with_interfaces__rosidl_generator_c
+[0.430s] [ 15%] Built target ament_cmake_python_copy_package_with_interfaces
+[0.486s] [ 25%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp
+[0.492s] [ 35%] Built target package_with_interfaces__rosidl_typesupport_cpp
+[0.495s] [ 45%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.527s] [ 55%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c
+[0.527s] [ 65%] Built target package_with_interfaces__rosidl_typesupport_introspection_c
+[0.543s] [ 75%] Built target package_with_interfaces__rosidl_typesupport_c
+[0.617s] [ 75%] Built target package_with_interfaces
+[0.689s] [ 77%] Built target package_with_interfaces__py
+[0.780s] [ 85%] Built target package_with_interfaces__rosidl_generator_py
+[0.873s] [ 95%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.874s] [ 95%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.874s] [100%] Built target package_with_interfaces__rosidl_typesupport_c__pyext
+[0.961s] running egg_info
+[0.962s] writing package_with_interfaces.egg-info/PKG-INFO
+[0.962s] writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt
+[0.963s] writing top-level names to package_with_interfaces.egg-info/top_level.txt
+[0.967s] reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[0.968s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[1.003s] [100%] Built target ament_cmake_python_build_package_with_interfaces_egg
+[1.035s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces -- -j6 -l6
+[1.061s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces
+[1.082s] -- Install configuration: ""
+[1.082s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/rosidl_interfaces/package_with_interfaces
+[1.083s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.083s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.083s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.h
+[1.083s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.083s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.c
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__functions.h
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.h
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.h
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_generator_c__visibility_control.h
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.c
+[1.084s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__functions.h
+[1.085s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.h
+[1.085s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.h
+[1.085s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.h
+[1.085s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.sh
+[1.085s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/library_path.dsv
+[1.086s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_c.so
+[1.087s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.087s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.087s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.087s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h
+[1.088s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.088s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.088s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.088s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_c.h
+[1.088s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_c.so
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/amazing_quote.hpp
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__builder.hpp
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__struct.hpp
+[1.089s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__traits.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__builder.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__struct.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__traits.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/what_is_the_point.hpp
+[1.090s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_cpp.hpp
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/dds_fastrtps
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/dds_fastrtps
+[1.091s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_fastrtps_cpp.hpp
+[1.092s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[1.092s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.092s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_c.h
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.c
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_c.h
+[1.093s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.c
+[1.094s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_c.so
+[1.095s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_c.so
+[1.095s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces
+[1.095s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg
+[1.096s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail
+[1.096s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_introspection_cpp.hpp
+[1.096s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/msg/detail/amazing_quote__type_support.cpp
+[1.096s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv
+[1.097s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail
+[1.097s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__rosidl_typesupport_introspection_cpp.hpp
+[1.097s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/include/package_with_interfaces/package_with_interfaces/srv/detail/what_is_the_point__type_support.cpp
+[1.097s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_introspection_cpp.so
+[1.098s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_typesupport_cpp.so
+[1.099s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.sh
+[1.099s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/pythonpath.dsv
+[1.099s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info
+[1.099s] -- Installing: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.100s] -- Installing: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[1.102s] -- Installing: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.103s] -- Installing: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[1.106s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/libpackage_with_interfaces__rosidl_generator_py.so
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote.py
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/_amazing_quote_s.c
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg/__init__.py
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.110s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point.py
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/_what_is_the_point_s.c
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv/__init__.py
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_c.c
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/_package_with_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[1.111s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/__init__.py
+[1.173s] Listing '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces'...
+[1.173s] Listing '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/msg'...
+[1.173s] Listing '/home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/srv'...
+[1.176s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.177s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.178s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/local/lib/python3.10/dist-packages/package_with_interfaces/package_with_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.179s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/lib/libpackage_with_interfaces__rosidl_generator_py.so
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/rust_packages/package_with_interfaces
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/build.rs
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/Cargo.toml
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/lib.rs
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/msg
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/msg/rmw.rs
+[1.180s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/msg.rs
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/srv
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/srv/rmw.rs
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/rust/src/srv.rs
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.idl
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.idl
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/msg/AmazingQuote.msg
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint.srv
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Request.msg
+[1.181s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/srv/WhatIsThePoint_Response.msg
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/package_run_dependencies/package_with_interfaces
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/parent_prefix_path/package_with_interfaces
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.sh
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/ament_prefix_path.dsv
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/path.sh
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/environment/path.dsv
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.bash
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.sh
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.zsh
+[1.182s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/local_setup.dsv
+[1.183s] -- Installing: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.dsv
+[1.184s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/ament_index/resource_index/packages/package_with_interfaces
+[1.184s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport.cmake
+[1.185s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cExport-noconfig.cmake
+[1.185s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[1.186s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.186s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_cppExport.cmake
+[1.187s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.187s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.188s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[1.188s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.188s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport.cmake
+[1.189s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[1.189s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[1.190s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.190s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport.cmake
+[1.190s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[1.191s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport.cmake
+[1.191s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/export_package_with_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[1.191s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake-extras.cmake
+[1.191s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.191s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/cmake/package_with_interfacesConfig-version.cmake
+[1.192s] -- Up-to-date: /home/ribeiro/ros2_tutorial_workspace/install/package_with_interfaces/share/package_with_interfaces/package.xml
+[1.196s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/the_simplest_python_package:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_node:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces

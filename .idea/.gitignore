@@ -3,3 +3,18 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
+
+# Pastas de build do ROS 2 / Colcon
+build/
+install/
+log/
+
+# Arquivos de IDEs e editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Python cache
+__pycache__/
+*.pyc

@@ -1,0 +1,41 @@
+[1.970s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_services': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_services build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/install.log --install-scripts $base/lib/python_package_that_uses_the_services --single-version-externally-managed install_data
+[2.362s] running egg_info
+[2.363s] creating ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info
+[2.364s] writing ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/PKG-INFO
+[2.379s] writing dependency_links to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/dependency_links.txt
+[2.379s] writing entry points to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/entry_points.txt
+[2.380s] writing requirements to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/requires.txt
+[2.380s] writing top-level names to ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/top_level.txt
+[2.385s] writing manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[2.387s] reading manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[2.388s] writing manifest file '../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info/SOURCES.txt'
+[2.389s] running build
+[2.389s] running build_py
+[2.389s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build
+[2.390s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib
+[2.397s] creating /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[2.397s] copying python_package_that_uses_the_services/what_is_the_point_service_client_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[2.400s] copying python_package_that_uses_the_services/what_is_the_point_service_server_node.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[2.409s] copying python_package_that_uses_the_services/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services
+[2.410s] running install
+[2.411s] running install_lib
+[2.412s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[2.412s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/what_is_the_point_service_client_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[2.413s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/what_is_the_point_service_server_node.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[2.414s] copying /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build/lib/python_package_that_uses_the_services/__init__.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services
+[2.416s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/what_is_the_point_service_client_node.py to what_is_the_point_service_client_node.cpython-310.pyc
+[2.420s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/what_is_the_point_service_server_node.py to what_is_the_point_service_server_node.cpython-310.pyc
+[2.422s] byte-compiling /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services/__init__.py to __init__.cpython-310.pyc
+[2.425s] running install_data
+[2.425s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/share/ament_index
+[2.425s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/share/ament_index/resource_index
+[2.425s] creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/share/ament_index/resource_index/packages
+[2.426s] copying resource/python_package_that_uses_the_services -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/share/ament_index/resource_index/packages
+[2.429s] copying package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/share/python_package_that_uses_the_services
+[2.429s] running install_egg_info
+[2.430s] Copying ../../build/python_package_that_uses_the_services/python_package_that_uses_the_services.egg-info to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages/python_package_that_uses_the_services-0.0.0-py3.10.egg-info
+[2.438s] running install_scripts
+[2.485s] Installing what_is_the_point_service_client_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python_package_that_uses_the_services
+[2.485s] Installing what_is_the_point_service_server_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python_package_that_uses_the_services
+[2.485s] writing list of installed files to '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/install.log'
+[2.492s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/src/python_package_that_uses_the_services' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/python_package_that_uses_the_services build --build-base /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/build install --record /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_services/install.log --install-scripts $base/lib/python_package_that_uses_the_services --single-version-externally-managed install_data
