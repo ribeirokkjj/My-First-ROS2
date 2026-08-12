@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node/ament_cmake_environment_hooks/ament_prefix_path.dsv

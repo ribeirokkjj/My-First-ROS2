@@ -1,12 +1,1 @@
-// generated from rosidl_generator_cpp/resource/idl.hpp.em
-// generated code does not contain a copyright notice
-
-#ifndef PACKAGE_WITH_INTERFACES__MSG__AMAZING_QUOTE_HPP_
-#define PACKAGE_WITH_INTERFACES__MSG__AMAZING_QUOTE_HPP_
-
-#include "package_with_interfaces/msg/detail/amazing_quote__struct.hpp"
-#include "package_with_interfaces/msg/detail/amazing_quote__builder.hpp"
-#include "package_with_interfaces/msg/detail/amazing_quote__traits.hpp"
-#include "package_with_interfaces/msg/detail/amazing_quote__type_support.hpp"
-
-#endif  // PACKAGE_WITH_INTERFACES__MSG__AMAZING_QUOTE_HPP_
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_generator_cpp/package_with_interfaces/msg/amazing_quote.hpp

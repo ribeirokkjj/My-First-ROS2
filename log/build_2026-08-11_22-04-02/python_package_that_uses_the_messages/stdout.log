@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating python_package_that_uses_the_messages.egg-info
+writing python_package_that_uses_the_messages.egg-info/PKG-INFO
+writing dependency_links to python_package_that_uses_the_messages.egg-info/dependency_links.txt
+writing entry points to python_package_that_uses_the_messages.egg-info/entry_points.txt
+writing requirements to python_package_that_uses_the_messages.egg-info/requires.txt
+writing top-level names to python_package_that_uses_the_messages.egg-info/top_level.txt
+writing manifest file 'python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+reading manifest file 'python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+writing manifest file 'python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python-package-that-uses-the-messages.egg-link (link to .)
+Installing amazing_quote_publisher_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+Installing amazing_quote_subscriber_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+
+Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages
+running symlink_data
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index
+creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/resource/python_package_that_uses_the_messages -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/ament_index/resource_index/packages
+symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/share/python_package_that_uses_the_messages

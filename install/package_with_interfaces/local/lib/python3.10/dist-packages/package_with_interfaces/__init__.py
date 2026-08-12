@@ -1,0 +1,1 @@
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_generator_py/package_with_interfaces/__init__.py

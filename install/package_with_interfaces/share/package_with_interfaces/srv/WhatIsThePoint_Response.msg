@@ -1,2 +1,1 @@
-
-geometry_msgs/Point point
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_cmake/srv/WhatIsThePoint_Response.msg

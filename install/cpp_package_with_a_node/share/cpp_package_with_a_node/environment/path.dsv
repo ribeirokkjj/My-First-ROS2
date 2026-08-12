@@ -1,1 +1,1 @@
-prepend-non-duplicate-if-exists;PATH;bin
+/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node/ament_cmake_environment_hooks/path.dsv

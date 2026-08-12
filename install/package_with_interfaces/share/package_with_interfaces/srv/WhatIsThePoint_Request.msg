@@ -1,3 +1,1 @@
-# WhatIsThePoint.srv from https://ros2-tutorial.readthedocs.io
-# Receives an AmazingQuote and returns what is the point
-AmazingQuote quote
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_cmake/srv/WhatIsThePoint_Request.msg

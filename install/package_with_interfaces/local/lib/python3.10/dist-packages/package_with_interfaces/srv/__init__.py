@@ -1,1 +1,1 @@
-from package_with_interfaces.srv._what_is_the_point import WhatIsThePoint  # noqa: F401
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_generator_py/package_with_interfaces/srv/__init__.py

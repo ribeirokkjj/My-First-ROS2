@@ -1,1 +1,1 @@
-from package_with_interfaces.msg._amazing_quote import AmazingQuote  # noqa: F401
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/rosidl_generator_py/package_with_interfaces/msg/__init__.py

@@ -1,6 +1,1 @@
-msg/AmazingQuote.idl
-msg/AmazingQuote.msg
-srv/WhatIsThePoint.idl
-srv/WhatIsThePoint.srv
-srv/WhatIsThePoint_Request.msg
-srv/WhatIsThePoint_Response.msg
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/package_with_interfaces

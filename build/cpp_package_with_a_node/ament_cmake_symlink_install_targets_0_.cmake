@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node/print_forever_node" "TARGETS" "print_forever_node" "DESTINATION" "lib/cpp_package_with_a_node")

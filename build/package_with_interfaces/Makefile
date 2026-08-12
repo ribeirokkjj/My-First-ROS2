@@ -315,17 +315,17 @@ package_with_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : package_with_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_package_with_interfaces
+# Target rules for targets named ament_cmake_python_symlink_package_with_interfaces
 
 # Build rule for target.
-ament_cmake_python_copy_package_with_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_package_with_interfaces
-.PHONY : ament_cmake_python_copy_package_with_interfaces
+ament_cmake_python_symlink_package_with_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_package_with_interfaces
+.PHONY : ament_cmake_python_symlink_package_with_interfaces
 
 # fast build rule for target.
-ament_cmake_python_copy_package_with_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_package_with_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_package_with_interfaces.dir/build
-.PHONY : ament_cmake_python_copy_package_with_interfaces/fast
+ament_cmake_python_symlink_package_with_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_package_with_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_package_with_interfaces.dir/build
+.PHONY : ament_cmake_python_symlink_package_with_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_package_with_interfaces_egg
@@ -888,7 +888,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_package_with_interfaces_egg"
-	@echo "... ament_cmake_python_copy_package_with_interfaces"
+	@echo "... ament_cmake_python_symlink_package_with_interfaces"
 	@echo "... package_with_interfaces"
 	@echo "... package_with_interfaces__cpp"
 	@echo "... package_with_interfaces__py"

@@ -1,1 +1,1 @@
-package_with_interfaces
+/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces/ament_cmake_python/package_with_interfaces/package_with_interfaces.egg-info/top_level.txt

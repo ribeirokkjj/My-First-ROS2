@@ -1,0 +1,70 @@
+[0.246s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake /home/ribeiro/ros2_tutorial_workspace/src/cpp_package_with_a_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node
+[0.318s] -- The C compiler identification is GNU 11.4.0
+[0.548s] -- The CXX compiler identification is GNU 11.4.0
+[0.795s] -- Detecting C compiler ABI info
+[0.907s] -- Detecting C compiler ABI info - done
+[0.914s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.914s] -- Detecting C compile features
+[0.914s] -- Detecting C compile features - done
+[0.918s] -- Detecting CXX compiler ABI info
+[1.034s] -- Detecting CXX compiler ABI info - done
+[1.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.041s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.044s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.191s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.249s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.285s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.405s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.411s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.419s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.494s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.497s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.287s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.245s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.903s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.913s] -- Looking for pthread.h
+[5.022s] -- Looking for pthread.h - found
+[5.023s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.122s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.122s] -- Found Threads: TRUE  
+[5.169s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.245s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.245s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ribeiro/ros2_tutorial_workspace/src/cpp_package_with_a_node/include>
+[5.245s] -- Configured cppcheck exclude dirs and/or files: 
+[5.246s] -- Added test 'lint_cmake' to check CMake code style
+[5.247s] -- Added test 'uncrustify' to check C / C++ code style
+[5.247s] -- Configured uncrustify additional arguments: 
+[5.248s] -- Added test 'xmllint' to check XML markup files
+[5.250s] -- Configuring done
+[5.260s] -- Generating done
+[5.263s] -- Build files have been written to: /home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node
+[5.274s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake /home/ribeiro/ros2_tutorial_workspace/src/cpp_package_with_a_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node
+[5.275s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node -- -j6 -l6
+[5.317s] [ 33%] [32mBuilding CXX object CMakeFiles/print_forever_node.dir/src/print_forever_node_main.cpp.o[0m
+[5.317s] [ 66%] [32mBuilding CXX object CMakeFiles/print_forever_node.dir/src/print_forever_node.cpp.o[0m
+[10.169s] [100%] [32m[1mLinking CXX executable print_forever_node[0m
+[10.320s] [100%] Built target print_forever_node
+[10.332s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node -- -j6 -l6
+[10.415s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node
+[10.422s] -- Install configuration: ""
+[10.422s] -- Execute custom install script
+[10.423s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/lib/cpp_package_with_a_node/print_forever_node
+[10.432s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/ament_index/resource_index/package_run_dependencies/cpp_package_with_a_node
+[10.439s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/ament_index/resource_index/parent_prefix_path/cpp_package_with_a_node
+[10.447s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/environment/ament_prefix_path.sh
+[10.454s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/environment/ament_prefix_path.dsv
+[10.461s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/environment/path.sh
+[10.468s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/environment/path.dsv
+[10.476s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/local_setup.bash
+[10.483s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/local_setup.sh
+[10.492s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/local_setup.zsh
+[10.499s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/local_setup.dsv
+[10.507s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/package.dsv
+[10.514s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/ament_index/resource_index/packages/cpp_package_with_a_node
+[10.521s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/cmake/cpp_package_with_a_nodeConfig.cmake
+[10.528s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/cmake/cpp_package_with_a_nodeConfig-version.cmake
+[10.535s] -- Symlinking: /home/ribeiro/ros2_tutorial_workspace/install/cpp_package_with_a_node/share/cpp_package_with_a_node/package.xml
+[10.544s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/home/ribeiro/install/python_package_that_uses_the_library:/home/ribeiro/install/python_package_with_a_library:/home/ribeiro/install/python_package_that_uses_the_services:/home/ribeiro/install/python_package_that_uses_the_messages:/home/ribeiro/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --install /home/ribeiro/ros2_tutorial_workspace/build/cpp_package_with_a_node
