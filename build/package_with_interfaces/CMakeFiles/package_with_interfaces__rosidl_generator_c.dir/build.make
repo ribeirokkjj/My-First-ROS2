@@ -114,7 +114,6 @@ rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
-rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_generator_c/package_with_interfaces/msg/amazing_quote.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl

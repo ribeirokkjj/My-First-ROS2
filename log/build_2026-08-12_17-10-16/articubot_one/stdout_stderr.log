@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/ribeiro/ros2_tutorial_workspace/src/articubot_one/articubot_one/CMakeLists.txt" does not match the source "/home/ribeiro/ros2_tutorial_workspace/src/articubot_one/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

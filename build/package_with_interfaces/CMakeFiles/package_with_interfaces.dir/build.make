@@ -100,7 +100,6 @@ CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Twis
 CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
-CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 CMakeFiles/package_with_interfaces: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 

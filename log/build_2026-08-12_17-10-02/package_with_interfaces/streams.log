@@ -1,0 +1,24 @@
+[0.018s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_services:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files:/opt/ros/humble /usr/bin/cmake --build /home/ribeiro/ros2_tutorial_workspace/build/package_with_interfaces -- -j12 -l12
+[0.193s] [  2%] Built target package_with_interfaces__cpp
+[0.193s] [  5%] Built target package_with_interfaces__rs
+[0.193s] [ 15%] Built target package_with_interfaces__rosidl_generator_c
+[0.193s] [ 15%] Built target ament_cmake_python_symlink_package_with_interfaces
+[0.193s] [ 25%] Built target package_with_interfaces__rosidl_typesupport_c
+[0.193s] [ 35%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.193s] [ 50%] Built target package_with_interfaces__rosidl_typesupport_introspection_cpp
+[0.193s] [ 65%] Built target package_with_interfaces__rosidl_typesupport_introspection_c
+[0.194s] [ 65%] Built target package_with_interfaces__rosidl_typesupport_cpp
+[0.194s] [ 75%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c
+[0.194s] [ 75%] Built target package_with_interfaces
+[0.194s] [ 77%] Built target package_with_interfaces__py
+[0.194s] [ 85%] Built target package_with_interfaces__rosidl_generator_py
+[0.194s] [ 95%] Built target package_with_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.194s] [ 92%] Built target package_with_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.194s] [100%] Built target package_with_interfaces__rosidl_typesupport_c__pyext
+[0.213s] running egg_info
+[0.213s] writing package_with_interfaces.egg-info/PKG-INFO
+[0.213s] writing dependency_links to package_with_interfaces.egg-info/dependency_links.txt
+[0.214s] writing top-level names to package_with_interfaces.egg-info/top_level.txt
+[0.215s] reading manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[0.216s] writing manifest file 'package_with_interfaces.egg-info/SOURCES.txt'
+[0.236s] [100%] Built target ament_cmake_python_build_package_with_interfaces_egg

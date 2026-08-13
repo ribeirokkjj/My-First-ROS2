@@ -109,7 +109,6 @@ rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3.idl
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Vector3Stamped.idl
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityStamped.idl
-rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/VelocityWithCovarianceStamped.idl
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/Wrench.idl
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/geometry_msgs/msg/WrenchStamped.idl
 rosidl_typesupport_fastrtps_c/package_with_interfaces/msg/detail/amazing_quote__rosidl_typesupport_fastrtps_c.h: /opt/ros/humble/share/std_msgs/msg/Bool.idl

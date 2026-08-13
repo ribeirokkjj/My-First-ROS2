@@ -1,0 +1,20 @@
+[1.081s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/build --no-deps symlink_data --force
+[1.262s] running develop
+[1.359s] running egg_info
+[1.359s] writing python_package_that_uses_parameters_and_launch_files.egg-info/PKG-INFO
+[1.359s] writing dependency_links to python_package_that_uses_parameters_and_launch_files.egg-info/dependency_links.txt
+[1.359s] writing entry points to python_package_that_uses_parameters_and_launch_files.egg-info/entry_points.txt
+[1.359s] writing requirements to python_package_that_uses_parameters_and_launch_files.egg-info/requires.txt
+[1.359s] writing top-level names to python_package_that_uses_parameters_and_launch_files.egg-info/top_level.txt
+[1.360s] reading manifest file 'python_package_that_uses_parameters_and_launch_files.egg-info/SOURCES.txt'
+[1.361s] writing manifest file 'python_package_that_uses_parameters_and_launch_files.egg-info/SOURCES.txt'
+[1.361s] running build_ext
+[1.362s] Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages/python-package-that-uses-parameters-and-launch-files.egg-link (link to .)
+[1.362s] Installing amazing_quote_configurable_publisher_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python_package_that_uses_parameters_and_launch_files
+[1.362s] 
+[1.362s] Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files
+[1.362s] running symlink_data
+[1.363s] symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/resource/python_package_that_uses_parameters_and_launch_files -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/share/ament_index/resource_index/packages
+[1.363s] symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/share/python_package_that_uses_parameters_and_launch_files
+[1.363s] symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/launch/peanut_butter_falcon_quote_publisher_launch.py -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/share/python_package_that_uses_parameters_and_launch_files/launch
+[1.383s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files/build --no-deps symlink_data --force

@@ -1,0 +1,18 @@
+[1.035s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build --no-deps symlink_data
+[1.206s] running develop
+[1.299s] running egg_info
+[1.299s] writing python_package_that_uses_the_messages.egg-info/PKG-INFO
+[1.299s] writing dependency_links to python_package_that_uses_the_messages.egg-info/dependency_links.txt
+[1.299s] writing entry points to python_package_that_uses_the_messages.egg-info/entry_points.txt
+[1.299s] writing requirements to python_package_that_uses_the_messages.egg-info/requires.txt
+[1.299s] writing top-level names to python_package_that_uses_the_messages.egg-info/top_level.txt
+[1.300s] reading manifest file 'python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[1.301s] writing manifest file 'python_package_that_uses_the_messages.egg-info/SOURCES.txt'
+[1.302s] running build_ext
+[1.302s] Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages/python-package-that-uses-the-messages.egg-link (link to .)
+[1.303s] Installing amazing_quote_publisher_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[1.303s] Installing amazing_quote_subscriber_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python_package_that_uses_the_messages
+[1.303s] 
+[1.303s] Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages
+[1.303s] running symlink_data
+[1.382s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_the_messages/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_the_messages/build --no-deps symlink_data

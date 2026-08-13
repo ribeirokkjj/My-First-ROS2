@@ -1,0 +1,18 @@
+[0.591s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build --no-deps symlink_data --force
+[0.763s] running develop
+[0.875s] running egg_info
+[0.875s] writing python_package_with_a_library.egg-info/PKG-INFO
+[0.875s] writing dependency_links to python_package_with_a_library.egg-info/dependency_links.txt
+[0.876s] writing entry points to python_package_with_a_library.egg-info/entry_points.txt
+[0.876s] writing requirements to python_package_with_a_library.egg-info/requires.txt
+[0.876s] writing top-level names to python_package_with_a_library.egg-info/top_level.txt
+[0.877s] reading manifest file 'python_package_with_a_library.egg-info/SOURCES.txt'
+[0.878s] writing manifest file 'python_package_with_a_library.egg-info/SOURCES.txt'
+[0.879s] running build_ext
+[0.879s] Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages/python-package-with-a-library.egg-link (link to .)
+[0.880s] 
+[0.880s] Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library
+[0.880s] running symlink_data
+[0.880s] symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/resource/python_package_with_a_library -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/ament_index/resource_index/packages
+[0.880s] symbolically linking /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/package.xml -> /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/share/python_package_with_a_library
+[0.899s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build --no-deps symlink_data --force

@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing python_package_that_uses_parameters_and_launch_files.egg-info/PKG-INFO
+writing dependency_links to python_package_that_uses_parameters_and_launch_files.egg-info/dependency_links.txt
+writing entry points to python_package_that_uses_parameters_and_launch_files.egg-info/entry_points.txt
+writing requirements to python_package_that_uses_parameters_and_launch_files.egg-info/requires.txt
+writing top-level names to python_package_that_uses_parameters_and_launch_files.egg-info/top_level.txt
+reading manifest file 'python_package_that_uses_parameters_and_launch_files.egg-info/SOURCES.txt'
+writing manifest file 'python_package_that_uses_parameters_and_launch_files.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python3.10/site-packages/python-package-that-uses-parameters-and-launch-files.egg-link (link to .)
+Installing amazing_quote_configurable_publisher_node script to /home/ribeiro/ros2_tutorial_workspace/install/python_package_that_uses_parameters_and_launch_files/lib/python_package_that_uses_parameters_and_launch_files
+
+Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_that_uses_parameters_and_launch_files
+running symlink_data

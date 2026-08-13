@@ -1,0 +1,16 @@
+[1.208s] Invoking command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build --no-deps symlink_data
+[1.398s] running develop
+[1.532s] running egg_info
+[1.532s] writing python_package_with_a_library.egg-info/PKG-INFO
+[1.532s] writing dependency_links to python_package_with_a_library.egg-info/dependency_links.txt
+[1.532s] writing entry points to python_package_with_a_library.egg-info/entry_points.txt
+[1.532s] writing requirements to python_package_with_a_library.egg-info/requires.txt
+[1.533s] writing top-level names to python_package_with_a_library.egg-info/top_level.txt
+[1.534s] reading manifest file 'python_package_with_a_library.egg-info/SOURCES.txt'
+[1.535s] writing manifest file 'python_package_with_a_library.egg-info/SOURCES.txt'
+[1.536s] running build_ext
+[1.536s] Creating /home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages/python-package-with-a-library.egg-link (link to .)
+[1.537s] 
+[1.537s] Installed /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library
+[1.537s] running symlink_data
+[1.560s] Invoked command in '/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library' returned '0': PYTHONPATH=/home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ribeiro/ros2_tutorial_workspace/install/python_package_with_a_library/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ribeiro/ros2_tutorial_workspace/build/python_package_with_a_library/build --no-deps symlink_data
